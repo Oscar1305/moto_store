@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tienda Trail</title>
+    <meta charset="utf-8">
+
+    <meta	name="viewport"	content="width=device-width,	initial-scale=1,	shrink-to-fit=no">
+
+    <!-- CSS Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    <!-- Enlace cdn a fonts awesome -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
+
+
+    <!-- JavaScript Bootstrap -->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <style type="text/css">
+  		ul li{
+  			margin-left: 30px;
+  			margin-top: 7px;
+  		}
+
+  		#row-moto{
+  			margin-top: 50px;
+  			text-align: center;
+  		}
+
+  		#row-moto-imagen{
+  			margin-top: 25px;
+  			text-align: center;
+  		}
+
+  		#fila-1{
+  			margin-top: 50px;
+  			z-index: -1;
+  		}
+
+
+  				footer{
+  					height: auto;
+  					background-color: #000;
+  					margin-top: 80px;
+  				}
+
+  				#form-footer{
+  					margin-top: 40px;
+  				}
+
+  				#form-footer label{
+  					color: #fff;
+  				}
+
+  				#form-footer button{
+  					margin-top: 10px;
+  					background-color: grey;
+  					width: 150px;
+  					color: #fff;
+  					border-style: none;
+  				}
+
+  				#direccion{
+  					color:#fff;
+  				}
+
+  				#col2-footer{
+  					margin-top: 20px;
+  					margin-left: 30px;
+  				}
+
+  				#seccion-texto{
+  					text-align: center;
+  					padding-top: 15px;
+  					margin-bottom: -20px;
+  					margin-top: 50px;
+  					font-weight: bold;
+  				}
+
+
+  		/*Utilizamos un media query (https://www.w3schools.com/css/css_rwd_mediaqueries.asp) para establecer unos márgenes
+  		distintos al hacer la pantalla más pequeña
+
+  		Atributos que se aplican hasta que la pantalla mide
+  		700px de ancho*/
+
+  		@media only screen and (max-width: 700px) {
+    			#texto-sobre-img{
+  				position: absolute;
+  				text-align: center;
+  				margin-top: 60px;
+  				margin-left: 120px;
+
+  			}
+  		}
+
+  		#seccion-portfolio{
+  			text-align: center;
+  			margin-top: 20px;
+  		}
+
+      #botonComprar{
+        background-color: white;
+        color: #0083FF;
+      }
+
+
+	</style>
+
+
+
+  </head>
+  <body>
+    <div class="container-fluid">
+  		<header class="row">
+  			 <nav class="navbar navbar-expand-md navbar-white bg-white fixed-top">
+
+  			 	<!-- LOGO -->
+    				<a class="navbar-brand" href="PaginaPrincipal.html"><img src="LOGO.png" width=50></a>
+
+
+    				<!-- Botón desplegable -->
+    				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="	#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      			<span class="navbar-toggler-icon"></span>
+    				</button>
+
+    				<div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      				<ul class="navbar-nav mr-auto">
+        					<li class="nav-item">
+          				<a class="nav-link" href="Pagina_Tienda.html">Tienda</a>
+        					</li>
+
+  				      <li class="nav-item">
+  								<a class="nav-link" href="Pagina_QuienesSomos.html">Quienes somos</a>
+
+
+  				      </li>
+
+  				       <li class="nav-item">
+  				        <a class="nav-link" href="Pagina_contacto.html">Contacto</a>
+  				      </li>
+
+  				       <li class="nav-item">
+  				        <a class="nav-link" href="Pagina_Blog.html">Blog</a>
+  				      </li>
+
+      				</ul>
+    					</div>
+
+
+  				</nav>
+  		</header>
+  	</div>
+    <section id="seccion-texto" class="container-fluid">
+
+  		<div class="row">
+  			<div class="col">
+  				<h1 id="texto-1">Trail</h1>
+  				<hr>
+  			</div>
+  		</div>
+
+  	<section id="seccion-portfolio" class="container-fluid">
+
+  		<div class="row">
+  			<div class="col-lg-4">
+  				<h3>SUZUKI V-STROM 650</h3>
+  				<a class="navbar-brand" href="https://moto.suzuki.es/motos/trail-sport-turismo/2020/v-strom-650"target="_blank"><img src="SUZUKI_Vstrom.jpg" width=400></a>
+          <button id="botonComprar" class="form-control" type="submit">8.799€</button class="d-block w-100">
+
+  			</div>
+  			<div class="col-lg-4">
+  				<h3>BENELLI TRK 502</h3>
+  				<a class="navbar-brand" href="https://spain.benelli.com/product/trk-502"target="_blank"><img src="Benelli_TRK.jpg" width=400></a>
+          <button id="botonComprar" class="form-control" type="submit">5.999€</button class="d-block w-100">
+  			</div>
+  			<div class="col-lg-4">
+  				<h3>HONDA CB 500X</h3>
+  				<a class="navbar-brand" href="https://www.honda.es/motorcycles/range/adventure/cb500x/overview.html"target="_blank"><img src="honda_cb500x.jpg" width=400></a>
+          <button id="botonComprar" class="form-control" type="submit">6.750€</button class="d-block w-100">
+  			</div>
+  		</div>
+
+  	</section>
+
+    <section id="seccion-portfolio" class="container-fluid">
+
+  		<div class="row">
+  			<div class="col-lg-4">
+  				<h3>KAWASAKI VERSYS 650</h3>
+  				<a class="navbar-brand" href="https://www.kawasaki.es/es/products/Trail/2020/Versys_650/overview?Uid=08FEUQwNXAoNDF5QUVtQXApfCgpZW1wKWF9QCV5bCVELUQk"target="_blank"><img src="Versys650.jpg" width=355></a>
+          <button id="botonComprar" class="form-control" type="submit">8.650€</button class="d-block w-100">
+
+  			</div>
+  			<div class="col-lg-4">
+  				<h3>HONDA CRF1000</h3>
+  				<a class="navbar-brand" href="https://www.honda.es/motorcycles/range/adventure/crf1100l-africa-twin/overview.html"target="_blank"><img src="HONDA_CRF1000.jpg" width=400></a>
+          <button id="botonComprar" class="form-control" type="submit">14.350€</button class="d-block w-100">
+  			</div>
+  			<div class="col-lg-4">
+  				<h3>GUZZI v85</h3>
+  				<a class="navbar-brand" href="https://www.motoguzzi.com/es_ES/moto/enduro/V85-TT/V85TT/"target="_blank"><img src="GUZZI.jpg" width=370></a>
+          <button id="botonComprar" class="form-control" type="submit">11.190€</button class="d-block w-100">
+  			</div>
+  		</div>
+
+  	</section>
+    <footer class="container-fluid">
+
+  		<div class="row">
+
+  			<div class="col-md-4">
+
+  				<form id="form-footer" class="form-group">
+  					<label>Subscríbete para enterarte de las novedades</label>
+  					<input class="form-control" type="email" placeholder="Tu email" name="">
+  					<button class="form-control" type="submit">Subscribirse</button>
+  				</form>
+
+  			</div>
+
+  			<div id="col2-footer" class="col-md-4">
+
+  				<a class="navbar-brand" href="#"><img src="https://pngimg.com/uploads/google/google_PNG19644.png" width="120"></a>
+
+  				<p id="direccion">C/ Inventada <br>46018 Valencia<br>Tel: 012345678<br>Email: contacto@contacto.com</p>
+
+  		</div>
+  	</footer>
+
+  </body>
+</html>

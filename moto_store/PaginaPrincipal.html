@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>
+		Trabajo Final
+	</title>
+
+	<meta charset="utf-8">
+
+	<meta	name="viewport"	content="width=device-width,	initial-scale=1,	shrink-to-fit=no">
+
+	<!-- CSS Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+	<!-- Enlace cdn a fonts awesome -->
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
+
+
+	<!-- JavaScript Bootstrap -->
+
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+	<style type="text/css">
+		ul li{
+			margin-left: 30px;
+			margin-top: 7px;
+		}
+
+		#row-moto{
+			margin-top: 50px;
+			text-align: center;
+		}
+
+		#row-moto-imagen{
+			margin-top: 25px;
+			text-align: center;
+		}
+
+		#fila-1{
+			margin-top: 50px;
+			z-index: -1;
+		}
+
+		#texto-sobre-img{
+				position: absolute;
+				text-align: center;
+				margin-top: 40px;
+				margin-left: 60px;
+				color: white;
+
+				}
+
+		#texto-sobre-img-2{
+				position: absolute;
+				text-align: center;
+				margin-top: 40px;
+				margin-left: 460px;
+				color: black;
+
+				}
+
+				footer{
+					height: auto;
+					background-color: #000;
+					margin-top: 80px;
+				}
+
+				#form-footer{
+					margin-top: 40px;
+				}
+
+				#form-footer label{
+					color: #fff;
+				}
+
+				#form-footer button{
+					margin-top: 10px;
+					background-color: grey;
+					width: 150px;
+					color: #fff;
+					border-style: none;
+				}
+
+				#direccion{
+					color:#fff;
+				}
+
+				#col2-footer{
+					margin-top: 20px;
+					margin-left: 30px;
+				}
+
+				#seccion-texto{
+					text-align: center;
+					padding-top: 15px;
+					margin-bottom: -20px;
+					margin-top: 50px;
+					font-weight: bold;
+				}
+
+				#YAMAHA{
+					margin-top: 25px;
+				}
+
+				#BENELLI{
+					margin-top: 25px;
+				}
+
+		/*Utilizamos un media query (https://www.w3schools.com/css/css_rwd_mediaqueries.asp) para establecer unos márgenes
+		distintos al hacer la pantalla más pequeña
+
+		Atributos que se aplican hasta que la pantalla mide
+		700px de ancho*/
+
+		@media only screen and (max-width: 700px) {
+  			#texto-sobre-img{
+				position: absolute;
+				text-align: center;
+				margin-top: 60px;
+				margin-left: 120px;
+
+			}
+
+			#texto-sobre-img-2{
+				position: absolute;
+				text-align: center;
+				margin-top: 400px;
+				margin-left: 120px;
+
+				}
+		}
+
+		#seccion-portfolio{
+			text-align: center;
+			margin-top: 20px;
+		}
+
+		#moto1, #moto2, #moto3{
+			margin-top: 10px;
+
+		}
+
+
+	</style>
+
+
+</head>
+<body>
+	<div class="container-fluid">
+		<header class="row">
+			 <nav class="navbar navbar-expand-md navbar-white bg-white fixed-top">
+
+			 	<!-- LOGO -->
+  				<a class="navbar-brand" href="PaginaPrincipal.html"><img src="LOGO.png" width=50></a>
+
+
+  				<!-- Botón desplegable -->
+  				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="	#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    			<span class="navbar-toggler-icon"></span>
+  				</button>
+
+  				<div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    				<ul class="navbar-nav mr-auto">
+      					<li class="nav-item">
+        				<a class="nav-link" href="Pagina_Tienda.html">Tienda</a>
+      					</li>
+
+				      <li class="nav-item">
+								<a class="nav-link" href="Pagina_QuienesSomos.html">Quienes somos</a>
+
+
+				      </li>
+
+				       <li class="nav-item">
+				        <a class="nav-link" href="Pagina_contacto.html">Contacto</a>
+				      </li>
+
+				       <li class="nav-item">
+				        <a class="nav-link" href="Pagina_Blog.html">Blog</a>
+				      </li>
+
+
+
+
+    				</ul>
+  					</div>
+				</nav>
+		</header>
+	</div>
+
+	<!-- carrusel -->
+
+
+
+
+	<div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
+
+		<!-- Indicadores -->
+
+  		<ol class="carousel-indicators">
+		    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+
+		    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+
+		    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+  		</ol>
+
+ 		<!-- Imágenes -->
+
+  		<div class="carousel-inner">
+    		<div class="carousel-item active" data-interval="3000">
+     			 <img src="https://images.pexels.com/photos/595809/pexels-photo-595809.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="d-block w-100" alt="kawasaki">
+      			<div class="carousel-caption d-none d-md-block">
+        			<h5>Kawasaki</h5>
+      			</div>
+    		</div>
+
+
+    		<div class="carousel-item" data-interval="3000">
+     			 <img src="https://images.pexels.com/photos/2516841/pexels-photo-2516841.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="d-block w-100" alt="iPad">
+      			<div class="carousel-caption d-none d-md-block">
+       				<h5>Harley Davidson</h5>
+      			</div>
+    		</div>
+
+
+    		<div class="carousel-item" data-interval="3000">
+     			<img src="https://images.pexels.com/photos/716906/pexels-photo-716906.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="d-block w-100" alt="MacBook Pro">
+      			<div class="carousel-caption d-none d-md-block">
+       			 	<h5>KTM</h5>
+      			</div>
+    		</div>
+  		</div>
+
+  		<!-- Controles de desplazamiento -->
+
+  		<a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+    		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    		<span class="sr-only">Anterior</span>
+  		</a>
+
+  		<a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+    		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+    		<span class="sr-only">Siguiente</span>
+  		</a>
+	</div>
+	<section id="seccion-texto" class="container-fluid">
+
+		<div class="row">
+			<div class="col">
+				<h1 id="texto-1">Lo más comprado</h1>
+				<hr>
+			</div>
+		</div>
+
+	<section id="seccion-portfolio" class="container-fluid">
+
+		<div class="row">
+			<div class="col-lg-4">
+				<h2>Versys 650</h2>
+				<a class="navbar-brand" href="https://www.kawasaki.es/es/products/Trail/2020/Versys_650/overview?Uid=08FEUQwNXAoNDF5QUVtQXApfCgpZW1wKWF9QCV5bCVELUQk"target="_blank"><img src="moto1.png" width=400></a>
+			</div>
+			<div class="col-lg-4">
+				<h2>Street Glide </h2>
+				<a class="navbar-brand" href="https://www.harley-davidson.com/es/es/motorcycles/street-glide-special.html"target="_blank"><img src="moto2.jpg" width=450></a>
+			</div>
+			<div class="col-lg-4">
+				<h2>Duke 790</h2>
+				<a class="navbar-brand" href="https://www.ktm.com/es/naked/790-duke/"target="_blank"><img src="moto3.png" width=400></a>
+			</div>
+		</div>
+
+	</section>
+
+	<section id="seccion-texto" class="container-fluid">
+
+		<div class="row">
+			<div class="col">
+				<h1 id="texto-2">Elije tu estilo</h1>
+				<hr>
+			</div>
+		</div>
+
+
+			<section id="seccion-estilo" class="container-fluid">
+
+				<div class="row">
+					<div class="col-lg-4">
+						<h2>Trail</h2>
+						<a class="navbar-brand" href="Pagina_tienda_trail.html"><img src="trail.jpg" width=400></a>
+					</div>
+					<div class="col-lg-4">
+						<h2>Naked</h2>
+						<a class="navbar-brand" href="Pagina_tienda_naked.html"><img src="naked.jpg" width=350></a>
+					</div>
+					<div class="col-lg-4">
+						<h2>Sport</h2>
+						<a class="navbar-brand" href="Pagina_tienda_sport.html"><img src="sport.jpg" width=425></a>
+					</div>
+				</div>
+
+			</section>
+
+
+			<section id="seccion-texto" class="container-fluid">
+
+				<div class="row">
+					<div class="col">
+						<h1 id="texto-2">Con quien trabajamos</h1>
+						<hr>
+					</div>
+				</div>
+
+				<section id="seccion-marca1" class="container-fluid">
+
+					<div class="row">
+						<div class="col-lg-4">
+							<h2>BMW</h2>
+							<a class="navbar-brand" href="https://www.bmw-motorrad.es/es/home.html?gclid=EAIaIQobChMIxMq8pfLP6QIVErLVCh3OdAeCEAAYASAAEgJoVfD_BwE#/filter-todo"target="_blank"><img src="BMW.jpg" width=400></a>
+						</div>
+						<div class="col-lg-4">
+							<h2>YAMAHA</h2>
+							<a class="navbar-brand" href="https://www.yamaha-motor.eu/es/es/"target="_blank"><img src="YAMAHA.jpg" width=200></a>
+						</div>
+						<div class="col-lg-4">
+							<h2>BENELLI</h2>
+							<a class="navbar-brand" href="https://spain.benelli.com/"target="_blank"><img src="BENELLI.jpg" width=200></a>
+						</div>
+					</div>
+
+				</section>
+				<section id="seccion-marca2" class="container-fluid">
+
+					<div class="row">
+						<div class="col-lg-4">
+							<h2>HONDA</h2>
+							<a class="navbar-brand" href="https://www.honda.es/motorcycles.html"target="_blank"><img src="HONDA.jpg" width=300></a>
+						</div>
+						<div class="col-lg-4">
+							<h2>SUZUKI</h2>
+							<a class="navbar-brand" href="https://moto.suzuki.es/motos"target="_blank"><img src="SUZUKI.jpg" width=325></a>
+						</div>
+						<div class="col-lg-4">
+							<h2>DUCATI</h2>
+							<a class="navbar-brand" href="https://www.ducati.com/es/es/home"target="_blank"><img src="DUCATI.jpg" width=200></a>
+						</div>
+					</div>
+
+
+
+				</section>
+
+				<section id="seccion-texto" class="container-fluid">
+
+					<div class="row">
+						<div class="col">
+							<h1 id="texto-2">Equípate</h1>
+							<hr>
+						</div>
+					</div>
+
+
+						<section id="seccion-equipacion" class="container-fluid">
+
+							<div class="row">
+								<div class="col-lg-4">
+									<h2>Cascos</h2>
+									<img class="image-fluid" id="Cascos" src="CASCO.jpg" width="250">
+								</div>
+								<div class="col-lg-4">
+									<h2>Monos</h2>
+									<img class="image-fluid" id="Monos" src="MONOS.jpg" width="250">
+								</div>
+								<div class="col-lg-4">
+									<h2>Guantes</h2>
+									<img class="image-fluid" id="Guantes" src="GUANTES.jpg" width="250">
+								</div>
+							</div>
+
+						</section>
+
+	<footer class="container-fluid">
+
+		<div class="row">
+
+			<div class="col-md-4">
+
+				<form id="form-footer" class="form-group">
+					<label>Subscríbete para enterarte de las novedades</label>
+					<input class="form-control" type="email" placeholder="Tu email" name="">
+					<button class="form-control" type="submit">Subscribirse</button>
+				</form>
+
+			</div>
+
+			<div id="col2-footer" class="col-md-4">
+
+				<a class="navbar-brand" href="#"><img src="https://pngimg.com/uploads/google/google_PNG19644.png" width="120"></a>
+
+				<p id="direccion">C/ Inventada <br>46018 Valencia<br>Tel: 012345678<br>Email: contacto@contacto.com</p>
+
+		</div>
+	</footer>
+
+</body>
+</html>

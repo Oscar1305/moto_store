@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pagina_contacto</title>
+
+    <meta charset="utf-8">
+
+    <meta	name="viewport"	content="width=device-width,	initial-scale=1,	shrink-to-fit=no">
+
+    <!-- CSS Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    <!-- Enlace cdn a fonts awesome -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
+
+
+    <!-- JavaScript Bootstrap -->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <style type="text/css">
+      ul li{
+        margin-left: 30px;
+        margin-top: 7px;
+      }
+
+      #seccion-texto{
+        text-align: center;
+        padding-top: 15px;
+        margin-bottom: -20px;
+        margin-top: 50px;
+        font-weight: bold;
+      }
+
+      #seccion-portfolio{
+        text-align: center;
+        margin-top: 20px;
+      }
+
+      footer{
+        height: auto;
+        background-color: #000;
+        margin-top: 80px;
+      }
+
+      #form-footer{
+        margin-top: 40px;
+      }
+
+      #form-footer label{
+        color: #fff;
+      }
+
+      #form-footer button{
+        margin-top: 10px;
+        background-color: grey;
+        width: 150px;
+        color: #fff;
+        border-style: none;
+      }
+
+      #direccion{
+        color:#fff;
+      }
+
+      #col2-footer{
+        margin-top: 20px;
+        margin-left: 30px;
+      }
+
+      #boton-oferta{
+        margin-top: 10px;
+      }
+
+      #seccion-oferta{
+        margin-top: 40px;
+        margin-left: 450px;
+      }
+
+      @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
+
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-font-smoothing:antialiased;
+	-moz-font-smoothing:antialiased;
+	-o-font-smoothing:antialiased;
+	font-smoothing:antialiased;
+	text-rendering:optimizeLegibility;
+}
+
+body {
+	font-family:"Open Sans", Helvetica, Arial, sans-serif;
+	font-weight:300;
+	font-size: 12px;
+	line-height:30px;
+	color:#777;
+	background:white;
+}
+
+.container {
+	max-width:400px;
+	width:100%;
+	margin:0 auto;
+	position:relative;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+
+#contact {
+	background:#F9F9F9;
+	padding:25px;
+	margin:50px 0;
+}
+
+#contact h3 {
+	color: #F96;
+	display: block;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+#contact h4 {
+	margin:5px 0 15px;
+	display:block;
+	font-size:13px;
+}
+
+fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+	width:100%;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+}
+
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid #AAA;
+}
+
+#contact textarea {
+	height:100px;
+	max-width:100%;
+  resize:none;
+}
+
+#contact button[type="submit"] {
+	cursor:pointer;
+	width:100%;
+	border:none;
+	background:#0CF;
+	color:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	font-size:15px;
+}
+
+#contact button[type="submit"]:hover {
+	background:#09C;
+	-webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#contact input:focus, #contact textarea:focus {
+	outline:0;
+	border:1px solid #999;
+}
+::-webkit-input-placeholder {
+ color:#888;
+}
+:-moz-placeholder {
+ color:#888;
+}
+::-moz-placeholder {
+ color:#888;
+}
+:-ms-input-placeholder {
+ color:#888;
+}
+
+      </style>
+
+
+  </head>
+  <body>
+    <div class="container-fluid">
+  		<header class="row">
+  			 <nav class="navbar navbar-expand-md navbar-white bg-white fixed-top">
+
+           <!-- LOGO -->
+     				<a class="navbar-brand" href="PaginaPrincipal.html"><img src="LOGO.png" width=50></a>
+
+
+     				<!-- Botón desplegable -->
+     				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="	#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+       			<span class="navbar-toggler-icon"></span>
+     				</button>
+
+     				<div class="collapse navbar-collapse" id="navbarsExampleDefault">
+       				<ul class="navbar-nav mr-auto">
+         					<li class="nav-item">
+           				<a class="nav-link" href="Pagina_Tienda.html">Tienda</a>
+         					</li>
+
+   				      <li class="nav-item">
+   								<a class="nav-link" href="Pagina_QuienesSomos.html">Quienes somos</a>
+
+
+   				      </li>
+
+   				       <li class="nav-item">
+   				        <a class="nav-link" href="Pagina_contacto.html">Contacto</a>
+   				      </li>
+
+   				       <li class="nav-item">
+   				        <a class="nav-link" href="Pagina_Blog.html">Blog</a>
+   				      </li>
+
+
+      				</ul>
+    					</div>
+
+
+  				</nav>
+
+
+  		</header>
+
+    </div>
+  	<section id="seccion-texto" class="container-fluid">
+
+  		<div class="row">
+  			<div class="col">
+  				<h1 id="texto-2">Contacto</h1>
+  				<hr>
+  			</div>
+  		</div>
+
+      <div class="container">
+        <form id="contact" action="" method="post">
+          <h3>Contacta con nosotros</h3>
+          <h4>Obtendrás una respuesta en menos de 24h!</h4>
+          <fieldset>
+            <input placeholder="Nombre" type="text" tabindex="1" required autofocus>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Correo electrónico" type="email" tabindex="2" required>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Número de teléfono" type="tel" tabindex="3" required>
+          </fieldset>
+          <fieldset>
+            <textarea placeholder="Escribe aquí tus dudas" tabindex="5" required></textarea>
+          </fieldset>
+          <fieldset>
+            <button name="Enviar" type="submit" id="contact-submit" data-submit="...Sending">Enviar</button>
+          </fieldset>
+        </form>
+
+
+      </div>
+
+  	<footer class="container-fluid">
+
+  		<div class="row">
+
+  			<div class="col-md-4">
+
+  				<form id="form-footer" class="form-group">
+  					<label>Subscríbete para enterarte de las novedades</label>
+  					<input class="form-control" type="email" placeholder="Tu email" name="">
+  					<button class="form-control" type="submit">Subscribirse</button>
+  				</form>
+
+  			</div>
+
+  			<div id="col2-footer" class="col-md-4">
+
+  				<a class="navbar-brand" href="#"><img src="https://pngimg.com/uploads/google/google_PNG19644.png" width="120"></a>
+
+  				<p id="direccion">C/ Inventada <br>46018 Valencia<br>Tel: 012345678<br>Email: contacto@contacto.com</p>
+
+  		</div>
+  	</footer>
+
+  </body>
+</html>
