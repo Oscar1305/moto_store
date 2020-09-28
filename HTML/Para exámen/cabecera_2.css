@@ -1,0 +1,47 @@
+body{
+  font-family: 'Economica', sans-serif;
+}
+header{
+  width: 100%;
+  display: inline-flex;
+  background-image: linear-gradient(#c0392b, red);
+  /* background-color: #c0392b; */
+}
+header p{
+  margin-left: 20px;
+  color: white;
+}
+#inicio-sesion{
+  margin-left: 500px;
+}
+
+/* Menú navegación */
+
+nav{
+  display: inline-flex;
+}
+
+nav img{
+  margin: 30px;
+}
+
+#menu{
+  margin-left: 100px;
+  margin-top: 60px;
+}
+
+#menu p{
+  display: inline-flex;
+  margin-left: 50px;
+  font-size: 20px;
+}
+
+#menu p:hover{
+  color: red;
+  text-decoration: line-through;
+  cursor: pointer;
+}
+
+#img img{
+  width: 100%;
+}

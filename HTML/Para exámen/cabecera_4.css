@@ -1,0 +1,95 @@
+body{
+  font-family: 'Sunflower', sans-serif;
+
+}
+
+#cont-img{
+  background-image: url("https://images.pexels.com/photos/122400/pexels-photo-122400.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
+  background-size: cover;
+  height: 500px;
+  z-index: -1;
+}
+
+#cont-navegacion{
+  position: absolute;
+  width: 98.2%;
+  height: 80px;
+  background-color: black;
+  opacity: 0.5;
+  margin-top: -450px;
+
+}
+
+#cont-logo{
+  position: absolute;
+  margin-top: -427px;
+  margin-left: 50px;
+}
+
+#cont-menu{
+  position: absolute;
+  margin-top: -435px;
+  margin-left: 500px;
+  display: inline-flex;
+}
+
+#cont-menu p{
+  color: white;
+  margin-left: 20px;
+}
+
+#cont-menu #home{
+  color: #ff7979;
+}
+
+#cont-menu p:hover{
+  text-decoration: line-through;
+  font-size: 18px;
+}
+
+#cont-info{
+  position: absolute;
+  margin-top: -300px;
+  width: 400px;
+  margin-left: 430px;
+}
+
+span{
+  color:#ff7979;
+}
+
+#btn-cabecera{
+  font-family: 'Sunflower', sans-serif;
+  font-size: 14px;
+  width: 120px;
+  height: 40px;
+  border-radius:5px;
+  background-color: #2d3436;
+  color: white;
+  margin-left: 260px;
+}
+
+#btn-cabecera:hover{
+  background-color: #636e72;
+}
+
+#seccion-1{
+  background-color: #ff7979;
+  height: 300px;
+  margin-top: -20px;
+}
+
+#titulo-seccion1{
+  text-align: center;
+  padding-top: 30px;
+  color: white;
+}
+
+#img-seccion1{
+  text-align: center;
+  padding-top: 20px;
+}
+
+.logo-seccion1{
+  margin-left: 50px;
+}

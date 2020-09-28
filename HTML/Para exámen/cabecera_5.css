@@ -1,0 +1,82 @@
+body{
+  font-family: 'Sunflower', sans-serif;
+}
+
+#cont-header-1{
+  display: inline-flex;
+  margin-top: 20px;
+
+}
+
+nav{
+  display: inline-flex;
+  margin-left: 30px;
+}
+
+nav p{
+  margin-left: 20px;
+}
+
+#cont-logo{
+  margin-left: 80px;
+}
+#cont-logo img{
+  margin-top: -15px;
+}
+
+#cont-contacto{
+  display: inline-flex;
+  margin-left: 40px;
+  margin-top: -10px;
+}
+#quote{
+  margin-left: 40px;
+  margin-top: 10px;
+}
+#call{
+  color:grey;
+}
+#tel{
+  margin-top: -10px;
+}
+
+#cont-img-form{
+  display: inline-flex;
+}
+#cont-form{
+  background-color: #2d3436;
+  height: 357px;
+  width: 362px;
+}
+
+#titulo{
+  margin-left: 40px;
+  margin-top: 60px;
+  color:white;
+}
+#paragraph{
+  margin-left: 40px;
+  color:white;
+}
+
+.form{
+  font-family: 'Sunflower', sans-serif;
+  width: 250px;
+  height: 30px;
+  border-radius: 50px;
+  margin-top: 10px;
+}
+
+#form input{
+  border-style: none;
+}
+
+#form{
+  margin-left: 40px;
+}
+
+#form button{
+  background-color: #0984e3;
+  color: white;
+  border-style: none;
+}

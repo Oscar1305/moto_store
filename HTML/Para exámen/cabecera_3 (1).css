@@ -1,0 +1,89 @@
+body{
+  font-family: 'Hind Siliguri', sans-serif;
+}
+#cont-header-1{
+  display:inline-flex;
+}
+#cont-header-2{
+  display:inline-flex;
+  padding-left: 100px;
+}
+#ubicacion{
+  color: #2980b9;
+}
+#telf{
+  padding-left: 30px;
+}
+#cont-header-3{
+  padding-top: 8px;
+  padding-left: 400px;
+}
+
+
+
+#cont-img{
+  background-image:url("https://images.pexels.com/photos/267507/pexels-photo-267507.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
+  background-size: cover;
+  height: 500px;
+  z-index: -1;
+  opacity: 0.3;
+}
+
+#cont-navegacion{
+  position: absolute;
+  width: 800px;
+  height: 100px;
+  background-color: white;
+  margin-top:-450px;
+  margin-left: 80px;
+}
+
+#cont-logo{
+  padding-left: 20px;
+}
+
+nav{
+  position: absolute;
+  display: inline-flex;
+  margin-left: 400px;
+  margin-top: -85px;
+}
+
+nav p{
+  margin-left: 20px;
+}
+
+#home{
+  color: #2980b9;
+}
+
+nav p:hover{
+  color: grey;
+  text-decoration: underline;
+}
+
+#cont-titulo{
+  position: absolute;
+  text-align: center;
+  margin-top: -250px;
+  margin-left: 300px;
+}
+
+#cont-boton{
+  position: absolute;
+  text-align: center;
+  margin-top: -90px;
+  margin-left: 435px;
+}
+
+#cont-boton, button{
+  width: 120px;
+  background-color: #2980b9;
+  color: white;
+  border-style: none;
+}
+
+#cont-boton, button:hover{
+  color: black;
+
+}

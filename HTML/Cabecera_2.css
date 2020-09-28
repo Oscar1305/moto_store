@@ -1,0 +1,18 @@
+body{
+  font-family: 'Libre Baskerville', serif;
+}
+
+header{
+  display: inline-flex;
+  background-color: #4cd137;
+  background-image: linear-gradient(#dcdde1, #f5f6fa);
+  /*background-color:*/
+}
+
+header p{
+  margin-left: 20px;
+}
+
+#inicio-sesion{
+  margin-left: 500px;
+}
